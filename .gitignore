@@ -5,3 +5,4 @@ sempress.zip
 package-lock.json
 .idea/*
 .DS_Store
+.remote-sync.json
