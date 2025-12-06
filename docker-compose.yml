@@ -16,7 +16,8 @@ services:
     ports:
       - "8012:80"
     volumes:
-      - ./sempress:/var/www/html/wp-content/themes/sempress
+      - ./sempress:/var/www/html/wp-content/themes/sempress:Z
+      - ./wp-content/plugins:/var/www/html/wp-content/plugins:Z
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
