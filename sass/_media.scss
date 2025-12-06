@@ -56,7 +56,7 @@ a img {
   border: 0 none;
 }
 p img {
-  margin-bottom: 0.5em; /* a small bottom margin prevents content floating under images */
+  margin-bottom: 0.5rem; /* a small bottom margin prevents content floating under images */
 }
 /*
 Resize images to fit the main content area.
@@ -92,13 +92,13 @@ img.size-thumbnail,
   margin: 0px;
   text-align: center;
   font-style: italic;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 2;
   color: #777;
 }
 div.aligncenter, .gallery {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .wp-smiley {
   margin: 0;
@@ -116,7 +116,7 @@ div.aligncenter, .gallery {
 }
 .image-attachment nav {
   float: right;
-  margin: 0 30px 1em 0;
+  margin: 0 30px 1rem 0;
 }
 .image-attachment .entry-content {
   clear: both;
@@ -160,7 +160,7 @@ div.aligncenter, .gallery {
 }
 
 .gallery-caption {
-  font-size: 11px;
+  font-size: 0.75rem;
 }
 
 /*

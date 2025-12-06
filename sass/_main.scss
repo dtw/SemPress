@@ -35,7 +35,7 @@ blockquote {
   &:before {
     display: block;
     content: "\201C";
-    font-size: 100px;
+    font-size: 6rem;
     position: absolute;
     left: -40px;
     top: 30px;
@@ -43,7 +43,7 @@ blockquote {
 	}
 	p {
 	  margin-bottom: 0;
-	  font-size: 16px;
+	  font-size: 1rem;
 	  font-weight: 300;
 	}
 }
@@ -54,7 +54,7 @@ blockquote small, blockquote cite, .post-format-content cite {
   display: block;
   color: #999;
   font-style: normal;
-  font-size: 0.9em;
+  font-size: 0.8rem;
   &:before {
     content: '\2014 \00A0';
   }
@@ -74,7 +74,7 @@ figure.quote {
       content: none;
     }
     p {
-      font-size: 22px;
+      font-size: 1.25rem;
     }
     p:first-child {
       padding-top: 0px;
@@ -88,11 +88,11 @@ figure.quote {
 }
 pre {
   font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: #f5f5f5;
   display: block;
-  line-height: 18px;
-  margin: 2em 0;
+  line-height: 1rem;
+  margin: 2rem 0;
   padding: 14px;
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -109,5 +109,5 @@ h1, h2, h3, h4, h5 {
   font-weight: 200;
 }
 h1 {
-  font-size: 30px;
+  font-size: 2rem;
 }

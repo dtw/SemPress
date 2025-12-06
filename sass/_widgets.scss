@@ -7,13 +7,13 @@
   margin-bottom: 40px;
   @include border-shadow-bottom;
   h3 {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 500;
     margin: 0 0 10px;
   }
 }
 .widget-area {
-  font-size: 0.8em;
+  font-size: 0.8rem;
   .widget_search {
     overflow: hidden;
  	}

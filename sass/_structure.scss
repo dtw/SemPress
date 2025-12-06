@@ -82,7 +82,7 @@ main {
   clip: auto;
   color: #21759b;
   display: block;
-  font-size: 14px;
+  font-size: 0.8rem;
   font-weight: bold;
   height: auto;
   line-height: normal;
@@ -100,12 +100,12 @@ main {
 .alignleft {
   display: inline;
   float: left;
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 .alignright {
   display: inline;
   float: right;
-  margin-left: 1em;
+  margin-left: 1rem;
 }
 .aligncenter, .alignnone {
   clear: both;
@@ -122,6 +122,6 @@ main {
   display: block;
   width: 100%;
   padding: 40px 0;
-  font-size: 12px;
+  font-size: 0.75rem;
   text-align: center;
 }

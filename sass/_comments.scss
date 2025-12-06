@@ -6,7 +6,7 @@ article.comment {
   display: block;
   position: relative;
   padding: 25px 0;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 
 #comments input {
@@ -30,9 +30,9 @@ article.comment {
   margin-top: 0;
 }
 a.comment-reply-link {
-  font-size: 12px;
+  font-size: 0.75rem;
   height: 16px;
-  line-height: 16px;
+  line-height: 1rem;
   &:before {
     font-family: 'Genericons';
     content: '\f412';
@@ -53,7 +53,7 @@ li.comment {
 }
 .comment-meta, .comment-notes, .logged-in-as {
   display: block;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 .comment-meta a, .comment-reply-link {
   text-decoration: none;
@@ -66,11 +66,11 @@ ol.commentlist {
   padding: 0;
 }
 .comment-content {
-  font-size: 1em;
+  font-size: 1rem;
 }
 .webmention, .pingback, .trackback {
   .comment-content {
-    font-size: 0.9em;
+    font-size: 0.8rem;
   }
 }
 .commentlist .odd article {

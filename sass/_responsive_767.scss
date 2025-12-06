@@ -1,15 +1,15 @@
 body {
-  font-size: 0.9em;
+  font-size: 0.8rem;
 }
 #site-title {
   a {
-    font-size: 0.7em;
+    font-size: 0.8rem;
     line-height: 1;
   }
   margin-bottom: 30px;
 }
 #site-description {
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 article.format-audio {
   .entry-media {
@@ -51,9 +51,9 @@ footer.entry-meta {
   padding-top: 15px;
   padding-bottom: 5px;
   a {
-    font-size: 35px;
+    font-size: 2rem;
   }
-  font-size: 35px;
+  font-size: 2rem;
   line-height: 1;
 }
 .format-quote {
@@ -102,7 +102,7 @@ footer.entry-meta {
 #access:target ul,
 #access.fokus ul {
   display: block;
-  font-size: 17px;
+  font-size: 1rem;
   background-color: transparent;
 }
 #access .section-heading {
@@ -156,7 +156,7 @@ footer.entry-meta {
   top: inherit;
 }
 #access ul ul a {
-  line-height: 1em;
+  line-height: 1rem;
   height: auto;
   border: none;
   width: auto;
